@@ -1,8 +1,51 @@
+# 基本配置
 title: 你的站点标题
 description: 你的站点描述
-url: https://prt7-26.github.io
-baseurl: /darkwealphawiki
+url: https://your-github-username.github.io
+baseurl: /your-repo-name
+lang: en  # 语言设置，可选 en 或 zh
+direction: auto  # 文本方向，可选 ltr 或 rtl
+
+# 主题配置
 remote_theme: rundocs/jekyll-rtd-theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
+
+# 主题特定配置
+rtd_theme:
+  color_scheme: dark  # 深色模式
+  sidebar:
+    depth: 2  # 侧边栏层级深度
+  search:
+    enabled: true  # 启用搜索功能
+
+# SEO 和元数据
+google:
+  gtag: ""  # 可选，填入你的 Google Analytics ID
+  adsense: ""  # 可选，填入你的 Google AdSense ID
+
+# 自定义翻译（可选）
+translate:
+  danger: "警告"
+  note: "注意"
+  tip: "提示"
+  warning: "警告"
+  not_found: "页面未找到"
+  revision: "最后更新"
+  searching: "搜索中"
+  search: "搜索"
+  search_docs: "搜索文档"
+  search_results: "搜索结果"
+  search_results_found: "找到 # 个结果"
+  search_results_not_found: "未找到结果"
+
+# 自定义样式和脚本（可选）
+scss: ""  # 自定义 SCSS 样式
+script: ""
