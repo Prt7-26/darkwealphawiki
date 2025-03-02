@@ -1,9 +1,9 @@
 # 基本配置
-title: 你的站点标题
+title: we
 description: 你的站点描述
-url: https://your-github-username.github.io
-baseurl: /your-repo-name
-lang: en  # 语言设置，可选 en 或 zh
+url: https://prt7-26.github.io
+baseurl: /darkwealphawiki
+lang: zh  # 语言设置，可选 en 或 zh
 direction: auto  # 文本方向，可选 ltr 或 rtl
 
 # 主题配置
