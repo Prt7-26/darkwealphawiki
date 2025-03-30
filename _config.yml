@@ -22,8 +22,8 @@ title: Darkwealphawiki
 email: china7_26@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   The dark version of wealphawiki.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" 
+baseurl: "/darkwealphawiki" # the subpath of your site, e.g. /blog
+url: "https://Prt7-26.github.io" 
 twitter_username: None
 github_username:  Prt7-26
 
